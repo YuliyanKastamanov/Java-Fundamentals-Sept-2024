@@ -21,11 +21,7 @@ public class MatchFullName_01 {
 
         while (matcher.find()){
             String currentName = matcher.group() + " ";
-
             System.out.print(currentName);
         }
-
-
-
     }
 }

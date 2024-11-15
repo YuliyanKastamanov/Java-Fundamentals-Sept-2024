@@ -24,7 +24,6 @@ public class MatchPhoneNumber_02 {
         List<String> matchedPhoneNumbers = new ArrayList<>();
 
         while (matcher.find()){
-
             matchedPhoneNumbers.add(matcher.group());
         }
 

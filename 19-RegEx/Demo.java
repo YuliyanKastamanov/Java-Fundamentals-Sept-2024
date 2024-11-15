@@ -3,8 +3,6 @@ package RegEx;
 public class Demo {
 
     public static void main(String[] args) {
-
-
        /*
        [] -> показват, че имаме един символ
        [a-z] -> искаме да вземем един символ, който да е малка буква между a-z
