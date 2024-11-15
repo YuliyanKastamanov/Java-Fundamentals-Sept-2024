@@ -44,14 +44,6 @@ public class ValidPassword_06 {
                 //matcher.find() -> false
                 System.out.println("Invalid pass!");
             }
-
-
-
         }
-
-
-
-
-
     }
 }

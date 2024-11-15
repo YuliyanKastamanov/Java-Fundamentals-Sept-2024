@@ -26,7 +26,6 @@ public class Furniture_01 {
             // or false - когато нашия текст не отговаря на шаблона
 
             if(matcher.find()){
-
                 // matcher.find() -> true - когато нашия текст отговаря на шаблона
                 String furnitureName = matcher.group("furnitureName");// "Sofa"
                 double price = Double.parseDouble(matcher.group("price"));//312.23

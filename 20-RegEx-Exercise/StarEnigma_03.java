@@ -19,7 +19,6 @@ public class StarEnigma_03 {
         for (int i = 1; i <= countMessages; i++) {
             String encryptedMessage = scanner.nextLine();
             String decryptedMessage = getDecryptedMessage(encryptedMessage);
-
             Matcher matcher = pattern.matcher(decryptedMessage);
 
             if (matcher.find()) {

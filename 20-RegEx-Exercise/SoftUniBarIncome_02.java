@@ -15,7 +15,6 @@ public class SoftUniBarIncome_02 {
         String input = scanner.nextLine();
         double totalSum = 0;
 
-
         while (!input.equals("end of shift")){
             Matcher matcher = pattern.matcher(input);
             if(matcher.find()) {
@@ -27,9 +26,6 @@ public class SoftUniBarIncome_02 {
                 System.out.printf("%s: %s - %.2f%n", name, product, currentSum);
                 totalSum += currentSum;
             }
-
-
-
 
             input = scanner.nextLine();
         }

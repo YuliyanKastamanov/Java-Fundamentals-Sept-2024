@@ -28,7 +28,6 @@ public class NetherRealms_04 {
                 }
             }
 
-
             System.out.printf("%s - %d health, %.2f damage\n", demonName, health, damage);
 
         }

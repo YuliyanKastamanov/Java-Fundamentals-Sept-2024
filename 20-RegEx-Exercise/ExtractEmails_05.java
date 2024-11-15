@@ -12,7 +12,6 @@ public class ExtractEmails_05 {
 
         //{user}@{host}
         //yuliyan.kastamanov@gmail.com
-
         String regexUser = "[A-Za-z0-9]+[\\.\\-\\_]?[A-Za-z0-9]+";
         String regexHost = "[A-Za-z]+\\-?[A-Za-z]+(\\.[A-Za-z]+\\-?[A-Za-z]*)+";//mail.softuni.org
         String regexEmail = regexUser + "@" + regexHost;// пълният регекс за верификация на имейл
@@ -23,8 +22,5 @@ public class ExtractEmails_05 {
         while (matcher.find()){
             System.out.println(matcher.group());
         }
-
-
-
     }
 }
